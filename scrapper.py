@@ -6,7 +6,7 @@ from datetime import datetime
 
 now = datetime.strftime(datetime.now(), '%m_%d_%H:%M')
 
-URL = 'https://polygonscan.com/address/0xbfd23d88e04ace72ae863151c0ccedd986ae34eb'
+URL = 'https://polygonscan.com/address/asdasdasdasd'
 
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36'}
 
@@ -37,11 +37,11 @@ def check_balance():
     
 
 def send_email():
-    gmail_user = 'mypythonchecker@gmail.com'
-    gmail_password = 'Skersys7.'
+    gmail_user = 'Myemail'
+    gmail_password = 'MyPassword.'
 
     sent_from = gmail_user
-    to = ['marius.skersys1@gmail.com']
+    to = ['myemail']
     subject= 'Woohoo'
     body = 'Your Matic Balance increased'
 
